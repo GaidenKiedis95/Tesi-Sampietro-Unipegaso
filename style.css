@@ -1,0 +1,66 @@
+/* Stile generale */
+body {
+    font-family: 'Lexend', sans-serif; /* Applica il font Lexend a tutto il corpo tramite Google Fonts*/
+    background-color: #ffffff83;    /*#f6fafa colore con cui non si vedono i bordi*/
+    text-align: center;
+}
+
+
+/* Stile del logo Unipegaso*/
+.logo {
+    max-width: 150px; /* Limita la larghezza del logo */
+}
+
+
+header h1 {
+    margin: 10px auto; /* Centra il titolo e rimuove margini inutili */
+    font-size: 36px; /* Dimensione del testo */
+    color: #000000b4; /* Colore del testo */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Ombra per migliorare leggibilità */
+    background-color: rgba(255, 255, 255, 0.8); /* Sfondo bianco trasparente */
+    padding: 20px; /* Spaziatura interna per il contenuto */
+    border-radius: 10px; /* Arrotonda gli angoli dello sfondo */
+    max-width: 1100px; /* Larghezza massima uguale ai paragrafi */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Aggiunge una leggera ombra per effetto visivo */
+}
+
+
+/* Stile del testo modificabile */
+main p {
+    margin: 5px auto;
+    font-size: 20px;
+    /*max-width: 1000px; /* Limita la larghezza del testo */
+    /*background-color: rgba(255, 255, 255, 0.8); /* Sfondo bianco trasparente */
+    color: #333; /* Colore del testo scuro */
+}
+
+
+.btn-custom {  /* MODIFICA IL PULSANTE DI DOWNLOAD CON LA FUNZIONE DI BOOTSTRAP CUSTOM */
+    font-family: 'Lexend', sans-serif; /* Applica Lexend ai pulsanti */
+    background-color: #3134f3; /* Colore verde personalizzato */
+    color: white;
+    font-size: 30px; /* Dimensione del font personalizzata */
+    padding: 15px 30px; /* Maggiore padding per un pulsante più grande */
+    margin-bottom: 50px; /* Aggiunge spazio sotto al pulsante */
+}
+
+
+/* Stile per l'elenco puntato */
+#paragrafo-elenco ul {
+    margin-left: 20px; /* Aggiunge margine a sinistra per indentare l'elenco */
+}
+
+
+/* Stile per il pulsante "Torna all'inizio" */
+   .scroll-to-top {
+    position: fixed;
+    bottom: 20px; /* Distanza dal fondo della pagina */
+    right: 20px; /* Distanza dal lato destro della pagina */
+}
+
+
+/* Stile per l'immagine centrata */
+.centered-image {
+    display: block; /* Rende l'immagine un elemento a blocco */
+    width: 100%; /* Larghezza dell'immagine */
+}
